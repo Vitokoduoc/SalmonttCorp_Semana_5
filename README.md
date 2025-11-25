@@ -96,8 +96,6 @@ Cada clase contiene Javadoc completo y validaciones.
 
 ## 🗂️ **Diagrama UML del Sistema (PlantUML)**
 
-> Puedes copiar esto en cualquier renderizador PlantUML, o usar la extensión de GitHub.
-
 ```plantuml
 @startuml
 
@@ -138,3 +136,84 @@ Ruta --> Direccion
 @enduml
 
 ```
+
+---
+📄 Archivos de Datos
+datosCentros.csv (12 columnas – formato extendido)
+```
+nombreCentro;comuna;produccion;nombreProducto;tipoProducto;precioProducto;calle;numero;region;nomRuta;responsable;fecha
+Isla Huar;Calbuco;1200;Salmón Atlántico Premium;Ahumado;8500;Costanera;1240;Los Lagos;Ruta inspección Calbuco;Supervisor Turno A;2025-01-20
+Chacao Norte;Ancud;980;Trucha Arcoíris;Fresco;6900;Av. Pacifico;552;Los Lagos;Ruta revisión Ancud;Jefe Planta;2025-01-22
+```
+---
+🧠 Funciones Implementadas (Service Layer)
+🔍 Búsqueda por comuna
+```
+service.buscarPorComuna("Calbuco");
+```
+📊 Filtrar por producción mínima
+```
+service.filtrarPorProduccionMinima(1500);
+
+```
+🔠 Ordenar alfabéticamente
+```
+service.ordenarPorNombre();
+
+```
+📋 Listar completa
+```
+service.listarTodos();
+
+```
+---
+## 🖥️ Salida de Consola Esperada
+
+Incluye 4 tablas:
+* Lista completa
+* Búsqueda por comuna
+* Filtro por producción
+* Ordenamiento
+* Tabla final de COMPOSICIÓN COMPLETA
+
+Ejemplo:
+```
+CENTRO               | COMUNA     | PRODUCCIÓN | PRODUCTO                    | TIPO         | PRECIO
+----------------------------------------------------------------------------------------------------
+Isla Huar            | Calbuco    | 1200       | Salmón Atlántico Premium    | Ahumado      | 8500.0
+...
+
+```
+Tabla final:
+```
+CENTRO        | PRODUCTO                  | DIRECCIÓN                             | RUTA                    | FECHA
+-----------------------------------------------------------------------------------------------------------------------
+Isla Huar     | Salmón Atlántico Premium  | Costanera 1240, Calbuco, Los Lagos    | Ruta inspección Calbuco | 2025-01-20
+
+```
+---
+## 🚀 Compilación y Generación del JAR
+1️⃣ Compilar:
+```
+mvn clean package
+
+```
+2️⃣ Ubicación del JAR:
+```
+target/SalmonttApp_Maven-1.0-SNAPSHOT.jar
+
+```
+3️⃣ Ejecutar:
+```
+java -jar target/SalmonttApp_Maven-1.0-SNAPSHOT.jar
+
+```
+
+
+
+## 👨‍💻 Autor
+
+Víctor Valenzuela Concha  
+Estudiante – analista Programador Computacional.  
+Duoc UC – DOO
+
