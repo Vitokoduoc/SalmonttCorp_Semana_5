@@ -1,0 +1,5 @@
+Isla Huar;Calbuco;1200;Salmón Atlántico Premium;Ahumado;8500;Costanera;1240;Los Lagos;IslaHuar_Calbuco;Andres Vasquez;2025-01-15
+Chacao Norte;Ancud;980;Trucha Arcoíris;Fresco;6900;Av. Principal;230;Los Lagos;Ancud_Calbuco;Pedro Ramirez;2025-02-10
+Canal Dalcahue;Dalcahue;1500;Salmón Coho;Congelado;7200;Camino Rural;S/N;Los Lagos;Dalcahue_Quellón ;Juan Riquelme;2025-03-05
+Quellón Norte;Quellón;2100;Salmón Atlántico;Fresco;8100;Puerto;45;Los Lagos;Quellón_PuertoMontt;Roberto Salinas;2025-04-20
+Punta Arenas Sur;Punta Arenas;3000;Salmón Premium Export;Congelado;9200;Costanera Sur;1020;Magallanes;PuntaArenas_Puerto;Javier Donoso;2025-05-12
