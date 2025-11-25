@@ -6,8 +6,8 @@
 ### Sistema de Gestión de Centros de Cultivo - Maven + Java + POO  
 **Autor:** Víctor Valenzuela  
 **Institución:** Duoc UC  
-**Asignatura:** Fundamentos de Programación / POO  
-**Evaluación Semana 5 – Proyecto Sumativo**
+**Asignatura:** Desarrollo Orientado a Objetos 
+**Evaluación Sumativa**
 
 ---
 
@@ -208,12 +208,3 @@ target/SalmonttApp_Maven-1.0-SNAPSHOT.jar
 java -jar target/SalmonttApp_Maven-1.0-SNAPSHOT.jar
 
 ```
-
-
-
-## 👨‍💻 Autor
-
-Víctor Valenzuela Concha  
-Estudiante – analista Programador Computacional.  
-Duoc UC – DOO
-
